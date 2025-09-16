@@ -205,7 +205,7 @@ export const AboutPage = () => {
                 <img src="https://res.cloudinary.com/dnci7vkv4/image/upload/v1756015488/profil_1_lir68c.jpg" alt="Kebun GS Organik" className="w-full h-auto object-cover rounded-lg mb-8"/>
                 <div className="prose lg:prose-lg max-w-none text-gray-700">
                     <p><strong>GS Organik</strong> lahir dari sebuah visi untuk menciptakan sistem pangan yang tidak hanya sehat bagi konsumen, tetapi juga ramah bagi lingkungan. Kami percaya bahwa alam memiliki kebijaksanaannya sendiri, dan tugas kami adalah bekerja selaras dengannya.</p>
-                    <p>Konsep inti kami adalah <strong>pertanian terintegrasi</strong>. Ini adalah sebuah sistem loop tertutup di mana setiap elemen saling mendukung. Limbah dari satu area menjadi sumber daya bagi area lain...</p>
+                    <p>Konsep inti kami adalah <strong>pertanian terintegrasi</strong>. Ini adalah sebuah sistem di mana setiap elemen saling mendukung. Limbah dari satu area menjadi sumber daya bagi area lain...</p>
                     <h2 className="text-2xl font-bold mt-8">Visi & Misi Kami</h2>
                     <p><strong>Visi:</strong> Menjadi penyedia produk organik terdepan yang mengedukasi masyarakat tentang pentingnya pertanian berkelanjutan.</p>
                     <p><strong>Misi:</strong></p>
