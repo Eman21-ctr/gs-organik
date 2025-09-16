@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAppContext } from '../context/AppContext.jsx';
 // import { Button, Card, Input } from '../components/ui.jsx'; // Pastikan path ini benar
-import { COMPANY_NAME, ADMIN_EMAIL } from '../constants.js';
+import { COMPANY_NAME} from '../constants.js';
 
 // Placeholder UI components, sama seperti file lainnya
 const Button = (props) => <button {...props} className={`w-full py-2 px-4 rounded ${props.className}`}>{props.children}</button>;
@@ -13,7 +13,7 @@ const Input = ({ label, ...props }) => <div><label className="block text-sm font
 
 
 const LoginPage = () => {
-    const [email, setEmail] = useState(ADMIN_EMAIL);
+    const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const { login } = useAppContext();
@@ -38,7 +38,7 @@ const LoginPage = () => {
                     <p className="text-gray-600">Admin Dashboard Login</p>
                 </div>
                 <Card className="p-8">
-                    <form onSubmit={handleSubmit} className="space-y-6">
+                    <form onSubmit={handleSubmit} className="space-y-6" autoComplete="off">
                         <Input
                             label="Email"
                             id="email"
@@ -46,7 +46,6 @@ const LoginPage = () => {
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                             required
-                            disabled
                         />
                         <Input
                             label="Password"
@@ -54,7 +53,7 @@ const LoginPage = () => {
                             type="password"
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
-                            placeholder="Hint: password123"
+                            autoComplete="new-password"
                             required
                         />
                         {error && <p className="text-sm text-red-600">{error}</p>}
