@@ -20,7 +20,7 @@ export const HomePage = () => {
             <section className="bg-green-50">
                 <div className="container mx-auto px-6 pt-16 pb-20 text-center">
                     <h1 className="text-4xl md:text-6xl font-extrabold text-green-800 leading-tight">
-                        Segar dari Kebun, <br className="hidden md:block" /> Sehat untuk Anda
+                        Segar dari Kebun, <br className="hidden md:block" /> Hanya untuk Anda
                     </h1>
                     <p className="mt-4 text-lg text-gray-700 max-w-2xl mx-auto">
                         Nikmati kualitas terbaik dari pertanian organik terintegrasi, langsung ke meja makan Anda.
@@ -205,11 +205,11 @@ export const AboutPage = () => {
                 <img src="https://res.cloudinary.com/dnci7vkv4/image/upload/v1756015488/profil_1_lir68c.jpg" alt="Kebun GS Organik" className="w-full h-auto object-cover rounded-lg mb-8"/>
                 <div className="prose lg:prose-lg max-w-none text-gray-700">
                     <p><strong>GS Organik</strong> lahir dari sebuah visi untuk menciptakan sistem pangan yang tidak hanya sehat bagi konsumen, tetapi juga ramah bagi lingkungan. Kami percaya bahwa alam memiliki kebijaksanaannya sendiri, dan tugas kami adalah bekerja selaras dengannya.</p>
-                    <p>Konsep inti kami adalah <strong>pertanian terintegrasi</strong>. Ini adalah sebuah sistem di mana setiap elemen saling mendukung. Limbah dari satu area menjadi sumber daya bagi area lain...</p>
+                    <p>Konsep inti kami adalah <strong>pertanian terintegrasi</strong>. Ini adalah sebuah sistem di mana setiap elemen saling mendukung. Limbah dari satu area menjadi sumber daya bagi area lain.</p>
                     <h2 className="text-2xl font-bold mt-8">Visi & Misi Kami</h2>
                     <p><strong>Visi:</strong> Menjadi penyedia produk organik terdepan yang mengedukasi masyarakat tentang pentingnya pertanian berkelanjutan.</p>
                     <p><strong>Misi:</strong></p>
-                    <ul><li>Menghasilkan produk organik berkualitas tinggi tanpa menggunakan pestisida dan pupuk kimia.</li><li>Mengembangkan dan mempraktikkan model pertanian terintegrasi yang efisien dan ramah lingkungan.</li><li>Bermitra dengan petani lokal untuk meningkatkan kesejahteraan dan menyebarkan praktik pertanian yang baik.</li><li>Menyediakan platform bagi konsumen untuk mendapatkan akses mudah ke pangan sehat dan informasi yang transparan.</li></ul>
+                    <ul><li>Menghasilkan produk organik berkualitas tinggi tanpa menggunakan pestisida dan pupuk kimia.</li><li>Mengembangkan dan mempraktikkan model pertanian terintegrasi yang efisien dan ramah lingkungan.</li><li>Bermitra dengan petani lokal untuk meningkatkan kesejahteraan dan menyebarkan praktik pertanian berkelanjutan.</li><li>Menyediakan platform bagi konsumen untuk mendapatkan akses mudah ke pangan sehat.</li></ul>
                 </div>
             </div>
         </div>
@@ -225,7 +225,7 @@ export const ContactPage = () => {
                 <div>
                     <h2 className="text-2xl font-semibold mb-4">Informasi Kontak</h2>
                     <div className="space-y-4 text-gray-700">
-                        <p><strong>Alamat:</strong><br />Jl. Nomelaktosi, Matani, Ds. Penfui Timur, Kec. Kupang Tengah, Kab. Kupang NTT</p>
+                        <p><strong>Alamat:</strong><br />Jl. Nomelaktosi, Matani, Desa. Penfui Timur, Kec. Kupang Tengah, Kab. Kupang NTT</p>
                         <p><strong>Telepon:</strong><br />+62 821-4579-9141</p>
                         <p><strong>Email:</strong><br />info@gsorganik.com</p>
                     </div>
